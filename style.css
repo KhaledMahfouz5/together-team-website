@@ -32,6 +32,14 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+.responsive-img {
+         max-width: 100%;
+         height: auto;
+         display: block;
+         margin: 1rem auto;
+}
+
 section {
     padding: 2rem;
 }
