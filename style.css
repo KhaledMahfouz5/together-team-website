@@ -1,53 +1,63 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     direction: rtl;
-    background-color: #f9f9f9;
-    color: #333;
 }
-
 header {
+    background: linear-gradient(to right, #0044cc, #00aaff);
+    color: #fff;
+    padding: 2rem;
     text-align: center;
-    background: #0078d7;
-    color: white;
-    padding: 20px 0;
 }
-
-header .logo {
-    width: 100px;
+.header-img {
+    max-width: 100px;
+    margin-bottom: 1rem;
 }
-
-main {
-    padding: 20px;
-}
-
-h1, h2 {
-    color: #0056a3;
-}
-
-section {
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
+nav ul {
     background: #333;
-    color: white;
-    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
 }
-
-footer a {
-    color: #1e90ff;
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
     text-decoration: none;
 }
-
-footer a:hover {
-    text-decoration: underline;
+section {
+    padding: 2rem;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }

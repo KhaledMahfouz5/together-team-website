@@ -1,2 +1,4 @@
-// Placeholder for future interactivity
-console.log("Welcome to the Together Team website!");
+// Add interactive JavaScript here if needed
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Website is ready!");
+});
