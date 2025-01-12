@@ -13,6 +13,10 @@
         <div class="header-content">
             <img src="assets/header-img.png" alt="Together Team" class="header-img">
             <h1>فريق Together Team</h1>
+            <div class="theme-switcher">
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button id="language-toggle">EN</button>
+            </div>
             <p>نعمل معًا لتعزيز المستوى الأكاديمي وحل المشاكل العملية</p>
         </div>
     </header>
@@ -88,32 +92,37 @@
     <section id="contact">
         <div class="container">
             <h2>تواصل معنا</h2>
-            <div class="contact-list">
-                <div class="contact-item">
+            <div class="card-container">
+                <div class="card contact-card">
                     <i class="fab fa-telegram fa-2x"></i>
-                    <span><strong>رابط مجموعة دفعتنا:</strong> <a href="https://t.me/Together_For_2027"
-                            target="_blank">https://t.me/Together_For_2027</a></span>
+                    <a href="https://t.me/Together_For_2027" target="_blank" class="contact-link">
+                        <strong>رابط مجموعة دفعتنا</strong>
+                    </a>
                 </div>
-                <div class="contact-item">
+                <div class="card contact-card">
                     <i class="fab fa-telegram fa-2x"></i>
-                    <span><strong>رابط البوت:</strong> <a href="https://t.me/TogetherTeamBot"
-                            target="_blank">@TogetherTeamBot</a></span>
+                    <a href="https://t.me/TogetherTeamBot" target="_blank" class="contact-link">
+                        <strong>رابط البوت</strong>
+                    </a>
                 </div>
-                <div class="contact-item">
+                <div class="card contact-card">
                     <i class="fab fa-telegram fa-2x"></i>
-                    <span><strong>معرف حسابنا:</strong> <a href="https://t.me/Together_Team_Account"
-                            target="_blank">@Together_Team_Account</a></span>
+                    <a href="https://t.me/Together_Team_Account" target="_blank" class="contact-link">
+                        <strong>معرف حسابنا</strong>
+                    </a>
                 </div>
-                <div class="contact-item">
+                <div class="card contact-card">
                     <i class="fab fa-telegram fa-2x"></i>
-                    <span><strong>رابط الصراحة:</strong> <a href="https://t.me/B9Bot?start=7892005753"
-                            target="_blank">https://t.me/B9Bot?start=7892005753</a></span>
+                    <a href="https://t.me/B9Bot?start=7892005753" target="_blank" class="contact-link">
+                        <strong>رابط الصراحة</strong>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     <footer>
         <p>© 2025 فريق Together Team - جميع الحقوق محفوظة</p>
+        <p id="footer-translated"></p>
     </footer>
     <script src="script.js"></script>
 </body>
