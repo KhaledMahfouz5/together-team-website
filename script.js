@@ -23,7 +23,7 @@ const translations = {
         ],
         contact: "Contact Us",
         contactLinks: [
-            { title: "Our Batch Group Link", url: "https://t.me/Together_For_2027" },
+            { title: "Our College Group Link", url: "https://t.me/Together_For_2027" },
             { title: "Bot Link", url: "https://t.me/TogetherTeamBot" },
             { title: "Our Account", url: "https://t.me/Together_Team_Account" },
             { title: "Honesty Link", url: "https://t.me/B9Bot?start=7892005753" },
